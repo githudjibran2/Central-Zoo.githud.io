@@ -1,0 +1,74 @@
+.imp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:yellowgreen;
+}
+.maen{
+   
+    position: relative; 
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.maen .carders{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff; 
+    margin: 30px 10px; 
+    padding: 20px 15px;
+     display: flex ;
+   flex-direction: column;
+   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+   transition: 0.3s ease-in-out;
+}
+.maen .carders:hover{
+    height: 420px;
+}
+.maen .carders .imgbx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -65px;
+    left: 20px;
+    z-index: 1;
+    border-radius: 0 5px 20px rbga(0,0,0,0.2);
+}
+.maen .carders .imgbx{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.maen .carders .contentdeing{
+    position: relative;
+    margin-top: -160px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.maen .carders:hover .contentdeing {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+.photos{
+    height: 260px;
+    width: 260px;
+}
+.lim{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(221, 65, 17);
+    margin-top: 0px;
+}
+.parameter{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(241, 34, 69);
+    margin-top: 0px;
+}

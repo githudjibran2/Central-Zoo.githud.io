@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-header .top{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    margin-left: 4%;
+  color: chocolate;
+  font-family: 'Nova Cut', cursive;
+  text-align: center;
+  font-weight: bolder;
+
+}
+.main-header .top .top1{
+    color: darkolivegreen;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Nova Cut', cursive;
+    font-weight: bolder;
+
+}
+.part{
+    opacity: 1;
+}
+
+.scro{
+    font-weight: 700;
+    color: rgb(68, 26, 26);;
+    font-family: fantasy;
+}
+.main-header .scro1{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: goldenrod;
+    margin-left: 50px;
+}
+.tilt{
+    width: 100%;
+    
+}
+.card1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-gap: 2rem; */
+    background: #f1f1f1;
+    /* margin-bottom: 2rem; */
+}
+.card1 .scro{
+    margin-top: 50px;
+    margin-bottom: 2rem;
+
+}
+.card1 .tilt{
+    height: 400px;
+}
+.card1>.part{
+    padding: 2rem;
+
+}
+.card1:nth-child(even) .tilt {
+    order: 2;
+}
+
+@media (max-width: 700px){
+    .card1{
+        display: block;
+    }
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}

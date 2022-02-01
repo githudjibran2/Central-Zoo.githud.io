@@ -1,0 +1,88 @@
+
+.centerdiv{
+    background-image: url(icons.jpg);  
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .p-about{
+    font-family: 'Rampart One', cursive;
+    font-size: xx-large;
+    display: block;
+   text-align: center;
+   font-weight: bolder;
+   color: black;
+   margin-top: 2px;
+  }
+ 
+  .footer1{
+    height: 80px;
+    width: 80px;
+    background-color: #f5f6fa;
+     border-radius: 50px ;
+     margin: 10px;
+     text-align: center;
+     margin: 10px;   
+     line-height: 95px;
+     box-shadow: 4px 3px 1px 4px #706a6a;
+
+
+}
+.footer1 .fa-facebook {
+    transition: all 0.3s linear;
+    
+  
+}
+.footer1 .fa-instagram {
+    transition: all 0.3s linear;
+    
+  
+}
+.footer1 .fa-twitter{
+    transition: all 0.3s linear;
+    
+  
+}
+.footer1 .fa-linkedin {
+    transition: all 0.3s linear;
+    
+  
+}
+.footer1 .fa-youtube {
+    transition: all 0.3s linear;
+    
+  
+}
+.footer1:hover .fa-facebook {
+    transform: scale(1.6);
+}
+.footer1:hover .fa-twitter{
+    transform: scale(1.6);
+}
+.footer1:hover .fa-instagram{
+    transform: scale(1.6);
+}
+.footer1:hover .fa-youtube{
+    transform: scale(1.6);
+}
+.footer1:hover .fa-linkedin{
+    transform: scale(1.6);
+}
+.fa-facebook{
+    color:  #0041C2;
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-instagram{
+    color:#e84393;
+}
+.fa-youtube{
+    color:  #e84118;
+}
+.fa-linkedin{
+    color: #2F57C4;
+}

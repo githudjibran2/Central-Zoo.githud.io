@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #b1b4bd;
+   background-color: #fff;
+}
+
+.expo{
+    font-size: 4.5rem;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    color: rgb(25, 87, 6);
+    cursor: pointer;
+    font-weight: 900;
+    margin-top: 7%;
+}
+.expo:hover{
+    text-decoration: underline rgb(73, 47, 9);
+}
+.expo1{
+    font-size: 3rem;
+    font-family: 'Shadows Into Light Two', cursive;
+     text-align: center;
+     color: rgb(73, 47, 9);
+     font-weight: 900;
+     line-height: 9.5vh;
+     margin-top: 15px;
+}
+.butn:hover{
+        color: #fff;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.rotate{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rule3 20s linear infinite;
+}
+@keyframes rule3
+{
+    0%
+    {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%
+    {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.box .dimension{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(tranparent,tranparent,#0004);
+}
+.box .dimension .rotator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* fade */
+.main-header{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.main-header .top{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    margin-left: 4%;
+  color: chocolate;
+  font-family: fantasy;
+
+}
+.main-header .top .top1{
+    color: darkolivegreen;
+    font-size: 3.5rem;
+
+}
+.part{
+    opacity: 1;
+}
+.scro{
+    font-weight: 700;
+    color: rgb(68, 26, 26);;
+    font-family: fantasy;
+}
+.main-header .scro1{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: goldenrod;
+}
+.tilt{
+    width: 100%;
+    
+}
+.card1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-gap: 2rem; */
+    background: #f1f1f1;
+    /* margin-bottom: 2rem; */
+}
+.card1 .scro{
+    margin-top: 50px;
+    margin-bottom: 2rem;
+
+}
+.card1 .tilt{
+    height: 400px;
+}
+.card1>.part{
+    padding: 2rem;
+
+}
+.card1:nth-child(even) .tilt {
+    order: 2;
+}
+
+@media (max-width: 700px){
+    .card1{
+        display: block;
+    }
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}

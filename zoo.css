@@ -1,0 +1,43 @@
+body{
+    /* margin: 0;
+    padding: 0; */
+    font-size: 20px;
+}
+/* .container-fluid .row{
+    background: white;
+} */
+.image{
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+     margin-left: 0.8%; 
+    
+}
+figure{
+    overflow: hidden;
+     margin: 0 0.8px; 
+}
+/* .zoomer1{
+ border-color: purple;
+ border-width: thick;
+} */
+
+.zoomer{
+    color: brown;
+    margin-top: 10px;
+}
+
+.image img{
+    display: block;
+    width: 110%;
+    height: 275px;
+    cursor: pointer;
+
+}
+.image .Zoom-In img{
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+}
+.image .Zoom-In:hover img{
+           transform: scale(1.2);
+}

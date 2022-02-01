@@ -1,0 +1,53 @@
+
+
+header{
+   
+    padding: 30px;
+    margin-bottom: 10px;
+    ;
+
+}
+header h1{
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: 'Lobster', cursive;
+    margin: 1.5 0px;
+    color: rgb(80, 128, 8)
+}
+.hea{
+    color: rgb(50, 33, 199); 
+    margin: 1.5 0px;
+    font-family: 'Staatliches', cursive;
+}
+.dtl{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(146, 9, 123);
+}
+.infos{
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.2rem;
+    color: brown;
+}
+.left-column{
+    float: left;
+    width: 75%;
+
+}
+.right-column{
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+}
+.card1{
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card1 .img1{
+    width: 100%;
+
+}
+.right-column .card1 .img1{
+    margin-bottom: 10px;
+}
